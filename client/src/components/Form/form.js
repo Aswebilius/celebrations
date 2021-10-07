@@ -5,13 +5,13 @@ import useStyles from "./styles";
 import { useDispatch } from "react-redux";
 import { createPost } from "../../actions/posts";
 
-const Form = () =>{
+const Form = ({ currentId, setCurrentId}) =>{
     const classes = useStyles();
     const [postData, setPostData] = useState({creator: "", title: "", message: "", tags: "", selectedFile:"" });
     const dispatch = useDispatch();
 
 
-    const handleSubmit = () =>{
+    const handleSubmit = (e) =>{
         e.preventDefault();
 
         dispatch(createPost(postData));

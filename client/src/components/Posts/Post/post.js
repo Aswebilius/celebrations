@@ -2,10 +2,10 @@ import React from "react";
 
 
 import useStyles from "./styles";
-const Post = () =>{
+const Post = ({ post, setCurrentId }) =>{
     const classes = useStyles();
     return (
-        <h1>Post</h1>
+        <h1>Posts</h1>
     );
 }
 
