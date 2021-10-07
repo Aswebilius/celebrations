@@ -5,7 +5,7 @@ import useStyles from "./styles";
 import { useDispatch } from "react-redux";
 import { createPost } from "../../actions/posts";
 
-const Form = ({ currentId, setCurrentId}) =>{
+const Form = () =>{
     const classes = useStyles();
     const [postData, setPostData] = useState({creator: "", title: "", message: "", tags: "", selectedFile:"" });
     const dispatch = useDispatch();
@@ -35,5 +35,3 @@ const Form = ({ currentId, setCurrentId}) =>{
         </Paper>
     );
 }
-
-export default Form;

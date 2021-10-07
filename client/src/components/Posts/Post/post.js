@@ -43,3 +43,5 @@ const Post = ({ post }) =>{
         </Card>
     );
 }
+
+export default Post;
