@@ -35,5 +35,3 @@ const Form = () =>{
         </Paper>
     );
 }
-
-export default Form;
