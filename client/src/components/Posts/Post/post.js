@@ -1,13 +1,13 @@
 import React from "react";
 import {Card, CardActions, CardContent, CardMedia, Button, Typography} from "@material-ui/core";
-import ThumbUpAltIcon from '@material-ui/icons/ThumbUpAlt';
+import ThumbUpAltIcon from "@material-ui/icons/ThumbUpAltIcon";
 import DeleteIcon from "@material-ui/icons/Delete";
-import MoreHorizIcon from '@material-ui/icons/MoreHoriz';
+import MoreHorizIcon from "@material-ui/icons/MoreHorizIcon";
 import moment from "moment";
 import useStyles from "./styles";
 
 
-const Post = ({ post, setCurrentId }) =>{
+const Post = ({ post }) =>{
     const classes = useStyles();
     return (
         <Card className= {classes.card}>
@@ -17,7 +17,7 @@ const Post = ({ post, setCurrentId }) =>{
             <Typography variant ="body2">{moment(post.createdAt).fromNow()}</Typography>
             </div>
             <div className={classes.overlay2}>
-            <Button style={{color:"grey"}} size="small" onClick={() => setCurrentId(post._id)}>
+            <Button style={{color:"grey"}} size="small" onClick={() =>{}}>
                 <MoreHorizIcon fontSize="default" />
             </Button> 
             </div>
