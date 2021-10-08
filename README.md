@@ -14,7 +14,7 @@ To skip installation and just test click the following link for the Apps live de
 
 The BackEnd Deployed URL: https://aswebilius-chapters.herokuapp.com/posts
 
-Git Hub Repository URL: https://github.com/Aswebilius/celebrations
+Git Hub Repository URL: https://github.com/Aswebilius/chapters
 
 
 # Demo Videos
