@@ -10,7 +10,7 @@ Now navigate to your Src Folder within your Client Folder and open another termi
 
 # Links
 
-To skip installation and just test click the following link for the Apps live deployment site: https://romantic-montalcini-8dbc95.netlify.app/
+To skip installation and just test click the following link for the Apps live deployment site: https://project-3-chapters.netlify.app/
 
 The BackEnd Deployed URL: https://aswebilius-chapters.herokuapp.com/posts
 
