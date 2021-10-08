@@ -12,6 +12,7 @@ export default makeStyles((theme) => ({
   form: {
     display: 'flex',
     flexWrap: 'wrap',
+    margin: '80px 0px',
     justifyContent: 'center',
   },
   fileInput: {
