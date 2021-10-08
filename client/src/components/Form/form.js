@@ -13,9 +13,6 @@ export default function Form({currentId, setCurrentId}) {
     const post =useSelector((state) => currentId ? state.posts.find((p) => p._id ===currentId) : null );
     const dispatch = useDispatch();
 
-    useEffect(() => {
-        if(post) setPostData(post);
-    }, [post])
 
 
     const handleSubmit = (e) => {
